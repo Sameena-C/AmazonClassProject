@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="systemscenarios.AmazonProject.TestCase2_Login_PaymentCOD_Logout">
+        <methods>
+          <include name="launch"/>
+          <include name="quit"/>
+          <include name="login_payment_logout"/>
+        </methods>
+      </class> <!-- systemscenarios.AmazonProject.TestCase2_Login_PaymentCOD_Logout -->
+      <class name="systemscenarios.AmazonProject.TestCase3_Registration_Login">
+        <methods>
+          <include name="launch"/>
+          <include name="quit"/>
+          <include name="register_login"/>
+        </methods>
+      </class> <!-- systemscenarios.AmazonProject.TestCase3_Registration_Login -->
+      <class name="systemscenarios.AmazonProject.TestCase5_Login_SearchProduct_Cart_Add_Remove">
+        <methods>
+          <include name="quit"/>
+          <include name="launch"/>
+          <include name="login_add_remove"/>
+        </methods>
+      </class> <!-- systemscenarios.AmazonProject.TestCase5_Login_SearchProduct_Cart_Add_Remove -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
